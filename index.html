@@ -1,17 +1,85 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Niyaki Pham</title>
-</head>
-<body>
-    <h1>WELCOME TO NIYAKI PHAM</h1>
-    <a href="index.html" target="_blank" rel="Menu">Home</a>
-    <a href="blog.html" target="_blank" rel="Menu">Blog</a>
-    <a href="video.html" target="_blank" rel="Menu">Video</a>
-    <a href="img.html" target="_blank" rel="Menu">Image</a>
-    <a href="music.html" target="_blank" rel="Menu">Music</a>
-    <a href="music.html" target="_blank" rel="Menu">Content</a>
-</body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="profile">
+        <img id="cut"
+          src="./assets/kaguya.jpeg"
+          alt="avatar cua niyaki"
+        />
+        <p>@niyakipham</p>
+      </div>
+
+      <div id="switch" onclick="toggleMode()">
+        <button></button>
+        <span></span>
+      </div>
+
+      <ul>
+        <li>
+          <a href="https://facebook.com/niyakipham">Facebook</a>
+        </li>
+
+        <li>
+          <a href="https://zalo.me/0901574726">zalo</a>
+        </li>
+
+        <li>
+          <a href="https://github.com/niyakipham">Github</a>
+        </li>
+
+        <li>
+          <a href="https://discord.com/niyakipham.off" target="_blank"
+            >Discord</a
+          >
+        </li>
+      </ul>
+      <div id="social-links">
+        <a href="https://github.com/niyakipham" target="_blank">
+          <ion-icon name="logo-github"></ion-icon>
+        </a>
+
+        <a href="https://instagram.com/maykbrito" target="_blank">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+
+        <a href="https://youtube.com/maykbrito" target="_blank">
+          <ion-icon name="logo-youtube"></ion-icon>
+        </a>
+
+        <a href="https://linkedin.com/in/maykbrito" target="_blank">
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
+      </div>
+
+      <footer>
+        Website create <a href="https://rocketseat.com.br/">Niyaki Pham</a>
+      </footer>
+    </div>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script src="./script.js"></script>
+  </body>
 </html>
